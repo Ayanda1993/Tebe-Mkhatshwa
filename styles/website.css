@@ -1,0 +1,191 @@
+h1,
+h2 {
+  margin: 0;
+}
+
+a:link {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(36, 55, 163);
+  background-color: transparent;
+  
+}
+
+a:active {
+  color: rgb(0, 128, 0);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.body {
+ /* background-color: rgb(182, 255, 210);*/
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  margin-left: 10px;
+  margin-right: 40px;
+}
+
+.resume-title-container {
+  display: inline-block;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.resume {
+  font-size: 35px;
+  padding-left: 120px;
+}
+
+.main-section {
+  /*background-color: lightpink;*/
+  margin-bottom: 70px;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-picture-container {
+  margin-right: 40px;
+}
+
+.profile_pic {
+  border-radius: 50%;
+}
+
+.biography {
+  font-size: larger;
+}
+
+.intro {
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+.about {
+  margin-bottom: 40px;
+}
+
+.contact {
+  margin-top: 20px;
+  column-gap: 20px;
+  row-gap: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+.contact-info {
+  height: 150px;
+
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  margin-top: 20px;
+
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+.contact-section {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.contact-details {
+  color: rgb(0, 0, 0);
+  padding-right: 20px;
+  padding-top: 20px;
+  margin-top: 7px;
+  font-size: 15px;
+}
+
+
+.logos-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logos {
+  height: 25px;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.logos-tick {
+  height: 35px;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+
+.main-section-resume {
+  /*background-color: lightpink;*/
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.resume-items {
+  /*background-color: lightpink;*/
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+}
+
+.resume-sections {
+ /*background-color: lightpink;*/
+  padding: 20px;
+  width: 600px;
+}
+
+.skills{
+  width: 20px;
+}
+
+.main-section-projects {
+  /*background-color: lightpink;*/
+  margin-bottom: 100px;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.projects-sections {
+  /*background-color: lightpink;*/
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 600px;
+ }
+
+ .projects-items {
+  /*background-color: lightpink;*/
+  
+  margin-left: 25px;
+}
+
+.project-pictures {
+  height: 300px;
+}
+
+.describtion-text {
+  margin-top: 15px;
+}

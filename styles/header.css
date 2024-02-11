@@ -1,0 +1,86 @@
+.header { 
+  /*Comment*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(255, 255, 255);/*adjust*/
+  height: 60px;
+  border-bottom-width: 0.5px;
+  border-bottom-style: hidden;
+  border-bottom-color: rgb(228, 228, 228);
+  z-index: 100;
+}
+
+.left-section {
+  /*background-color: lightpink;*/
+  display: flex; 
+}
+
+.logos-swazi {
+  height: 35px;
+  border-radius: 60%;
+  margin: 15px;
+}
+
+.name {
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.designer {
+  color: rgb(129, 30, 108);
+  padding-right: 20px;
+  padding-top: 20px;
+  margin-top: 7px;
+}
+
+.right-section {
+  /* background-color: lightpink;*/
+   
+   width: 300px;
+   margin-right: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-shrink: 0;
+ }
+
+.resume-button,
+.projects-button,
+.contact-button {
+  width: 90px;
+  background-color: rgb(253, 253, 253);
+  color: rgb(0, 0, 0);
+  border: none;
+  font-size: 16px;
+  
+  
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 9px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: opacity 0.25s;
+}
+
+.resume-button:hover,
+.projects-button:hover,
+.contact-button:hover {
+  background-color: rgb(230, 175, 175);
+  opacity: 7;
+}
+
+.resume-button:active,
+.projects-button:active,
+.contact-button:active {
+  background-color: rgb(113, 213, 213);
+  opacity: 0.5;
+}
